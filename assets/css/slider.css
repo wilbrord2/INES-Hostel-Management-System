@@ -1,0 +1,20 @@
+.w3-content {
+  margin-top: 50px;
+  background-color: black;
+  text-align: center;
+  object-fit: contain;
+}
+.mySlides {
+  width: 60vh;
+  display: none;
+}
+.w3-left,
+.w3-right,
+.w3-badge {
+  cursor: pointer;
+}
+.w3-badge {
+  height: 13px;
+  width: 13px;
+  padding: 0;
+}

@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Hostels</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
+
+    <!-- Favicons -->
+    <link href="assets/img/IHS logo.jpg" rel="icon" />
+    <link href="assets/img/IHS logo.jpg" rel="icon" />
+
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/css/room.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/button.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript">
+      $.get("header.html", function (response) {
+        $("#header").html(response);
+      });
+    </script>
+  </head>
+  <body>
+    <header id="header"></header>
+    <main id="container">
+      <div class="box box-intro">
+        <div class="intro-message">
+          <h2>
+            Hostel management provides a student an option of paying rental fees
+            in two installements
+          </h2>
+        </div>
+      </div>
+      <section id="Girls">
+        <div class="section-title">
+          <h2 class="gh2">Girls Rooms Category</h2>
+        </div>
+        <div class="box box-girls">
+          <div class="private-room">
+            <img src="/assets/img/rooms/room4.jpeg" alt="private-room" />
+            <div class="box private-room-details">
+              <h2>Private Room</h2>
+              <p>
+                This room can host two or four people and it contains the
+                following facilities:
+              </p>
+              <ul>
+                <li>One or Two Bed</li>
+                <li>Indoor toilet and Bathroom</li>
+                <li>Matelas</li>
+                <li>Cupboard</li>
+                <li>Shoes shelves</li>
+              </ul>
+              <h3>Price:200,000frw</h3>
+              <a href="header.html">
+                <input type="button" value="Register" class="button-register" />
+              </a>
+            </div>
+          </div>
+          <div class="ordinary-room">
+            <div class="private-room">
+              <img src="/assets/img/rooms/h5.jpg" alt="private-room" />
+              <div class="box private-room-details">
+                <h2>Ordinary Room</h2>
+                <p>
+                  This room can host Eight people and it contains the following
+                  facilities:
+                </p>
+                <ul>
+                  <li>Four Bed</li>
+                  <li>Outdoor toilet and Bathroom</li>
+                  <li>Matelas</li>
+                  <li>Cupboard</li>
+                  <li>Shoes shelves</li>
+                </ul>
+                <h3>Price:100,000frw</h3>
+                <a href="header.html">
+                  <input
+                    type="button"
+                    value="Register"
+                    class="button-register"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="boys" class="box box-boys">
+        <div class="section-title">
+          <h2 class="gh2">Boys Rooms Category</h2>
+        </div>
+        <div class="box box-girls">
+          <div class="private-room">
+            <div class="box private-room-details">
+              <h2>Private Room</h2>
+              <p>
+                This room can host two or four people and it contains the
+                following facilities:
+              </p>
+              <ul>
+                <li>One or Two Bed</li>
+                <li>Indoor toilet and Bathroom</li>
+                <li>Matelas</li>
+                <li>Cupboard</li>
+                <li>Shoes shelves</li>
+              </ul>
+              <h3>Price:200,000frw</h3>
+              <a href="header.html">
+                <input type="button" value="Register" class="button-register" />
+              </a>
+            </div>
+            <img src="/assets/img/rooms/room8.jpg" alt="private-room" />
+          </div>
+          <div class="ordinary-room">
+            <div class="private-room">
+              <div class="box private-room-details">
+                <h2>Ordinary Room</h2>
+                <p>
+                  This room can host Eight people and it contains the following
+                  facilities:
+                </p>
+                <ul>
+                  <li>Four Bed</li>
+                  <li>Outdoor toilet and Bathroom</li>
+                  <li>Matelas</li>
+                  <li>Cupboard</li>
+                  <li>Shoes shelves</li>
+                </ul>
+                <h3>Price:100,000frw</h3>
+                <a href="header.html">
+                  <input
+                    type="button"
+                    value="Register"
+                    class="button-register"
+                  />
+                </a>
+              </div>
+              <img src="/assets/img/rooms/room6.jpg" alt="private-room" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="prices">
+        <div class="section-title">
+          <h2 class="gh2">Prices for Each Category</h2>
+        </div>
+        <div class="wrap">
+          <div class="pricing-table">
+            <div class="plan room-a">
+              <h3 class="name">PRIVATE ROOM</h3>
+              <h4 class="price">200,000frw<span>/Year</span></h4>
+
+              <ul class="details">
+                <li><strong>First installement</strong> 120,000 Rwf</li>
+                <li><strong>Second installement</strong> 80,000 Rwf</li>
+              </ul>
+              <h5 class="order"><a href="#">Register now</a></h5>
+            </div>
+            <!--.plan-->
+
+            <div class="plan room-b">
+              <h3 class="name">ORDINARY ROOM</h3>
+              <h4 class="price">100,000frw<span>/Year</span></h4>
+              <ul class="details">
+                <li><strong>First installement</strong> 60,000 Rwf</li>
+                <li><strong>Second installement</strong> 40,000 Rwf</li>
+              </ul>
+              <h5 class="order"><a href="#">Register now</a></h5>
+            </div>
+            <!--.plan-->
+          </div>
+          <!--.pricing-table-->
+        </div>
+        <!--.wrap-->
+      </section>
+    </main>
+    <div class="section-title">
+      <h2 id="contact" class="gh">CONTACT</h2>
+    </div>
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 footer-contact">
+              <h3>HOSTELS</h3>
+              <p>
+                Rwanda <br />
+                Musanze, Street, NM 155<br />
+                Po Box: 155 Ruhengeri <br />
+                <strong>Phone:</strong> +250 788555527 <br />
+                <strong>Phone:</strong> +250 788806852 <br />
+                <strong>Email:</strong> hostel@gmail.com<br />
+              </p>
+            </div>
+
+            <div class="col-lg-2 col-md-6 footer-links">
+              <h4>Useful Links</h4>
+              <ul>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="index.html">Home</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="#about">About us</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="#contact">Contact</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="#">Terms of service</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="#">Privacy policy</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-6 footer-links">
+              <h4>Our Services</h4>
+            </div>
+
+            <div class="col-lg-4 col-md-6 footer-newsletter">
+              <h4>Join our College</h4>
+              <p></p>
+              <form action="" method="post">
+                <input type="email" name="email" /><input
+                  type="submit"
+                  value="Subscribe"
+                />
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container d-md-flex py-4">
+        <div class="me-md-auto text-center text-md-start"></div>
+        <div class="social-links text-center text-md-right pt-3 pt-md-0">
+          <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+          <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+          <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+          <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+  </body>
+</html>
+<script></script>
