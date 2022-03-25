@@ -70,6 +70,9 @@ h6 {
   background: rgba(19, 46, 92, 0.986);
   padding: 15px 0 0 0;
 }
+#header .logo {
+  text-align: center;
+}
 #header .logo img {
   height: 90px;
   width: 90px;
@@ -83,10 +86,13 @@ h6 {
 */
 .navbar {
   padding: 0;
+  justify-content: center;
 }
-.navbar .login {
-  margin-left: 80px;
+#nav-login {
+  justify-content: end;
 }
+/* .navbar .login {
+} */
 .navbar ul {
   margin: 0;
   padding: 0;
@@ -97,6 +103,7 @@ h6 {
 .navbar li {
   position: relative;
   padding: 0 5px;
+  margin: 0 10px;
 }
 .navbar a,
 .navbar a:focus {
@@ -111,11 +118,12 @@ h6 {
 }
 .navbar a i,
 .navbar a:focus i {
-  font-size: 12px;
+  font-size: 15px;
   line-height: 0;
   margin-left: 5px;
 }
-.navbar a:hover {
+
+.navbar li:hover {
   background-color: #414c64;
 }
 .navbar a:hover,
@@ -139,6 +147,9 @@ h6 {
 @media (max-width: 991px) {
   .mobile-nav-toggle {
     display: block;
+    margin-right: 5%;
+    z-index: 999;
+    margin-bottom: 15px;
   }
 
   .navbar ul {
@@ -161,9 +172,7 @@ h6 {
   top: 15px;
   right: 15px;
 }
-.navbar-mobile .login {
-  margin-top: 100%;
-}
+
 .navbar-mobile ul {
   display: block;
   position: absolute;
