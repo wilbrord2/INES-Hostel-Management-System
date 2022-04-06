@@ -1,0 +1,75 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+a {
+  text-decoration: none;
+}
+.header,
+.footer {
+  background-color: rgba(19, 46, 92, 0.986);
+}
+.main {
+  position: relative;
+  left: 25%;
+  top: 95px;
+  bottom: 30px;
+}
+.header img {
+  width: 90px;
+}
+.img-sm,
+.row-sm {
+  text-align: end;
+  margin-top: 5px;
+}
+.navlink {
+  color: white;
+  margin: 4px 0px;
+  font-size: 18px;
+  padding: 5px;
+  text-decoration: none;
+}
+.navlink:hover {
+  color: rgb(166, 241, 247);
+  background-color: rgba(128, 128, 128, 0.378);
+  transform: scale(1.15);
+  transition: ease-in-out 0.3s;
+}
+.logout {
+  background-color: #020518a6;
+  border-radius: 20px;
+  text-align: center;
+  color: white;
+  width: 75px;
+  height: 25px;
+  font-size: 18px;
+  text-decoration: none;
+}
+.logout:hover {
+  color: rgb(2, 2, 28);
+  background-color: rgba(0, 238, 255, 0.692);
+  transform: scaleY(1.15);
+  transition: ease-in-out 0.5s;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 18px;
+}
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
